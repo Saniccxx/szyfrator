@@ -6,7 +6,7 @@ from tkinter import messagebox
 class GUI:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("GUI")
+        self.root.title("Szyfrator")
         self.root.geometry("1280x720")
         self.root.configure(bg='beige')
         self.label = tk.Label(self.root, text="Szyfrator", font=('Impact', 32), bg='beige')
